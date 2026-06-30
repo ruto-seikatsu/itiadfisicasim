@@ -2,53 +2,113 @@
 <html lang="es" data-bs-theme="dark">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Portafolio - Física y Simulación</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<title>Portafolio - Física y Simulación</title>
 
-    <!-- Fuente -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-        body{
-            font-family:Poppins,sans-serif;
-            background:#121212;
-        }
+<style>
 
-        h1{
-            font-weight:700;
-        }
+body{
+    background:#111;
+    color:white;
+    font-family:'Cormorant Garamond',serif;
+}
 
-        .card{
-            border:none;
-            border-radius:18px;
-            overflow:hidden;
-            transition:.3s;
-            box-shadow:0 0 18px rgba(0,0,0,.35);
-        }
+.container{
+    max-width:1300px;
+}
 
-        .card:hover{
-            transform:translateY(-6px);
-            box-shadow:0 10px 25px rgba(0,0,0,.6);
-        }
+h1{
+    font-size:4rem;
+    font-weight:600;
+    letter-spacing:1px;
+}
 
-        iframe{
-            width:100%;
-            aspect-ratio:16/9;
-        }
+.lead{
+    font-size:1.6rem;
+}
 
-        footer{
-            margin-top:70px;
-            text-align:center;
-            color:gray;
-        }
+.card{
+    background:#1b1b1b;
+    border:none;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.35s;
+    box-shadow:0px 10px 30px rgba(0,0,0,.45);
+}
 
-    </style>
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0px 18px 40px rgba(0,0,0,.7);
+}
+
+.card-body{
+    padding:25px;
+}
+
+.card h3{
+    font-size:2rem;
+    margin-bottom:18px;
+}
+
+iframe{
+    width:100%;
+    aspect-ratio:16/9;
+    border:none;
+    border-radius:12px;
+}
+
+footer{
+
+    margin-top:90px;
+    margin-bottom:40px;
+    text-align:center;
+
+}
+
+footer hr{
+
+    width:80%;
+    margin:auto;
+    margin-bottom:35px;
+
+}
+
+footer h2{
+
+    font-size:3rem;
+    font-weight:500;
+
+}
+
+footer h4{
+
+    font-size:2rem;
+    margin-top:25px;
+
+}
+
+footer p{
+
+    font-size:1.5rem;
+    margin-bottom:5px;
+
+}
+
+.small-text{
+
+    color:#9e9e9e;
+    font-size:1.2rem;
+
+}
+
+</style>
 
 </head>
 
@@ -56,244 +116,185 @@
 
 <div class="container py-5">
 
-    <div class="text-center mb-5">
+<div class="text-center mb-5">
 
-        <h1 class="display-4">
-            Portafolio - Física y Simulación
-        </h1>
+<h1>Portafolio - Física y Simulación</h1>
 
-        <p class="lead">
-            Prácticas realizadas en Blender
-        </p>
+<p class="lead">
+Prácticas realizadas en Blender
+</p>
 
-    </div>
+</div>
 
-    <div class="row g-4">
+<div class="row g-4">
 
-        <!-- Caida Libre -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Caída Libre</h3>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Caída Libre</h3>
+<iframe src="https://www.youtube.com/embed/2G8HKLALSIk" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                    <iframe src="https://www.youtube.com/embed/2G8HKLALSIk"
-                        allowfullscreen></iframe>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Plano Inclinado</h3>
+<iframe src="https://www.youtube.com/embed/TcH7Oc2sM6s" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                </div>
-            </div>
-        </div>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Práctica de Boliche</h3>
+<iframe src="https://www.youtube.com/embed/JCFyzdiuqRE" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-        <!-- Plano Inclinado -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Plano Inclinado</h3>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Constrains</h3>
+<iframe src="https://www.youtube.com/embed/m3Y5nJA3GR8" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                    <iframe src="https://www.youtube.com/embed/TcH7Oc2sM6s"
-                        allowfullscreen></iframe>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Partículas</h3>
+<iframe src="https://www.youtube.com/embed/NiEoecvHB9A" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                </div>
-            </div>
-        </div>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Fracture</h3>
+<iframe src="https://www.youtube.com/embed/S_3yW_sVVkI" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-        <!-- Boliche -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Práctica Boliche</h3>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Práctica Tela Cloth (Bandera)</h3>
+<iframe src="https://www.youtube.com/embed/gaXBCwI1lcE" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                    <iframe src="https://www.youtube.com/embed/JCFyzdiuqRE"
-                        allowfullscreen></iframe>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Revelación de Auto</h3>
+<iframe src="https://www.youtube.com/embed/xv_rDni0uw4" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                </div>
-            </div>
-        </div>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Partículas con Turbulencia</h3>
+<iframe src="https://www.youtube.com/embed/29swLqZ5kl4" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-        <!-- Constrains -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Constrains</h3>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Fuego</h3>
+<iframe src="https://www.youtube.com/embed/h1JdVcdNwTs" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                    <iframe src="https://www.youtube.com/embed/m3Y5nJA3GR8"
-                        allowfullscreen></iframe>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Fluidos</h3>
+<iframe src="https://www.youtube.com/embed/dZzPJFeNX8A" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                </div>
-            </div>
-        </div>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Lata</h3>
+<iframe src="https://www.youtube.com/embed/c3Gx1QBIu70" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-        <!-- Partículas -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Partículas</h3>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Columpio</h3>
+<iframe src="https://www.youtube.com/embed/46pdOQf7LBQ" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                    <iframe src="https://www.youtube.com/embed/NiEoecvHB9A"
-                        allowfullscreen></iframe>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Demolición</h3>
+<iframe src="https://www.youtube.com/embed/HOk923kLB9w" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                </div>
-            </div>
-        </div>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Soft Body</h3>
+<iframe src="https://www.youtube.com/embed/G131IY1nIF0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-        <!-- Fracture -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Fracture</h3>
+<div class="col-lg-6">
+<div class="card">
+<div class="card-body">
+<h3>Postre</h3>
+<iframe src="https://www.youtube.com/embed/fa4uvHue6T8" allowfullscreen></iframe>
+</div>
+</div>
+</div>
 
-                    <iframe src="https://www.youtube.com/embed/S_3yW_sVVkI"
-                        allowfullscreen></iframe>
+</div>
 
-                </div>
-            </div>
-        </div>
+<footer>
 
-        <!-- Bandera -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Práctica Tela (Bandera)</h3>
+<hr>
 
-                    <iframe src="https://www.youtube.com/embed/gaXBCwI1lcE"
-                        allowfullscreen></iframe>
+<h2>Creado por Ruto</h2>
 
-                </div>
-            </div>
-        </div>
+<h4>Proyecto Académico</h4>
 
-        <!-- Auto -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Revelación de Auto</h3>
+<p class="small-text">
+© 2026
+</p>
 
-                    <iframe src="https://www.youtube.com/embed/xv_rDni0uw4"
-                        allowfullscreen></iframe>
+<p class="small-text">
+Todos los derechos reservados
+</p>
 
-                </div>
-            </div>
-        </div>
-
-        <!-- Turbulencia -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Partículas con Turbulencia</h3>
-
-                    <iframe src="https://www.youtube.com/embed/29swLqZ5kl4"
-                        allowfullscreen></iframe>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Fuego -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Fuego</h3>
-
-                    <iframe src="https://www.youtube.com/embed/h1JdVcdNwTs"
-                        allowfullscreen></iframe>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Fluidos -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Fluidos</h3>
-
-                    <iframe src="https://www.youtube.com/embed/dZzPJFeNX8A"
-                        allowfullscreen></iframe>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Lata -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Lata</h3>
-
-                    <iframe src="https://www.youtube.com/embed/c3Gx1QBIu70"
-                        allowfullscreen></iframe>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Columpio -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Columpio</h3>
-
-                    <iframe src="https://www.youtube.com/embed/46pdOQf7LBQ"
-                        allowfullscreen></iframe>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Demolición -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Demolición</h3>
-
-                    <iframe src="https://www.youtube.com/embed/HOk923kLB9w"
-                        allowfullscreen></iframe>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Soft Body -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Soft Body</h3>
-
-                    <iframe src="https://www.youtube.com/embed/G131IY1nIF0"
-                        allowfullscreen></iframe>
-
-                </div>
-            </div>
-        </div>
-
-        <!-- Postre -->
-        <div class="col-lg-6">
-            <div class="card bg-dark">
-                <div class="card-body">
-                    <h3>Postre</h3>
-
-                    <iframe src="https://www.youtube.com/embed/fa4uvHue6T8"
-                        allowfullscreen></iframe>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <footer>
-
-        <hr>
-
-        <h5>Creado por Ruto</h5>
-
-        <p>Proyecto académico</p>
-
-    </footer>
+</footer>
 
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
 </html>
